@@ -1,15 +1,11 @@
 class Main {
     public static void main(String[] args) {
-        System.out.print("*");
-        System.out.print("**");
-        System.out.print("***");
-        System.out.println("****");
-        System.out.print("*\n**\n***\n****");
-   }
+       int a=10;
+       int b=20;
+       String name ="sadikh";
+       int sum = a+b;
+       System.out.println(sum);
+       name = "shaik";
+       System.out.println(name);
+    }
 }
-//OUTPUT//
-**********
-*
-**
-***
-****
